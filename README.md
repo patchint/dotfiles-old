@@ -1,5 +1,12 @@
 ![Screenshot in Plasma x i3](https://github.com/Syswap/dotfiles/blob/main/Screenshot_20210416_161025.png)
 
+On my principal PC
+
+![Same on my laptop](https://github.com/Syswap/dotfiles/blob/main/Screenshot_20210416_230430.png)
+
+On my laptop
+
+
 # dotfiles
 
 These dotfiles requires these soft : 
