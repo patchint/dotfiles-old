@@ -7,3 +7,39 @@ All of these software are available on ArchLinux
 
 .config directory are in your user repo (~/)
 
+### Attention
+
+If you use config.plasma (.config/i3/config.plasma), you have to do these changements to your systems :
+
+## Install Plasma 
+
+sudo pacman -Syy && sudo pacman -S plasma (kde-applications if you want) wmctrl
+
+Create a new file called plasma-i3.desktop in the ```/usr/share/xsessions``` directory as sudo (/usr/share/xsessions/plasma-i3.desktop):
+```
+[Desktop Entry]
+Type=XSession
+Exec=env KDEWM=/usr/bin/i3 /usr/bin/startplasma-x11
+DesktopNames=KDE
+Name=Plasma with i3
+Comment=Plasma with i3
+```
+
+Now, it's good !
+
+## Attention
+
+Change in the configuration if you use an another language (exemple English bc I'm a baguette) :
+```
+...
+for_window [title="Bureau — Plasma"] kill; floating enable; border none
+...
+```
+Change Bureau — Plasma by the output of ```wmctrl -l```
+An exemple :
+```
+...
+0x04400006  0 alex-mi Arbeitsfläche — Plasma
+...
+```
+
