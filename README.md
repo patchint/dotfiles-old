@@ -1,3 +1,5 @@
+# !!!!! DEPRECATED !!!!!
+
 ![Screenshot in Plasma x i3](https://github.com/Syswap/dotfiles/blob/main/Screenshot_20210416_161025.png)
 
 On my principal PC
